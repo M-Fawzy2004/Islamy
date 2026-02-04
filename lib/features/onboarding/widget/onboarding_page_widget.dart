@@ -57,8 +57,7 @@ class OnboardingPageWidget extends StatelessWidget {
             ],
           ),
         ),
-
-        const Spacer(),
+         const Spacer(),
       ],
     );
   }

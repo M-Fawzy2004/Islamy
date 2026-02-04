@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:islami/features/home/screen/home_screen.dart';
 import 'package:islami/features/onboarding/model/onboarding_item.dart';
 import 'package:islami/features/onboarding/widget/onboarding_page_widget.dart';
 
@@ -29,7 +30,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
       );
     } else {
       // Navigate to Home or Auth
-      // Navigator.pushReplacementNamed(context, HomeScreen.routeName);
+      Navigator.pushReplacementNamed(context, HomeScreen.routeName);
     }
   }
 
